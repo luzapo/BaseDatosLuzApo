@@ -1,0 +1,16 @@
+Se creó el modelo entidad relación para la Fábrica de Cerveza, así: 
+
+Entidades creadas:
+-	Cerveza con llave Primaria Cerveza_id
+-	Materia Prima con llave primaria  MateriaPrima_id
+-	Cerveza-MateriaPrima con llave Cerveza_id y MateriaPrima_id
+-	Categoria con llave primaria Categoria_id
+-	Tipo con la llave Tipo_id
+-	Categoria-Tipo con los campos Categoria_id y Tipo_id
+
+Especificaciones para crear el modelo. 
+-Una cerveza tiene una única identificación, puede utilizar varias materias Primas y también tiene una categoría.
+- Cada materia prima tiene una única identificación y puede ser utilizada para fabricar varias cervezas
+- Cada categoría es única y puede tener varios tipos
+- Existen varios tipos de categorías, los cuales pueden ser utilizados en varias categorías.
+
