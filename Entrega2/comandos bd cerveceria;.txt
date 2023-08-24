@@ -1,0 +1,74 @@
+CREATE DATABASE cerveceria;
+USE cerveceria;
+
+
+CREATE TABLE materia_prima(
+    -> id_materiap INT PRIMARY KEY AUTO_INCREMENT,
+    -> nombre VARCHAR (255) NOT NULL,
+    -> detalle VARCHAR (255) NOT NULL
+    -> );
+
+
+CREATE TABLE tipo(
+    -> id_tipo INT PRIMARY KEY AUTO_INCREMENT,
+    -> nombre VARCHAR (255) NOT NULL
+    -> );
+
+CREATE TABLE categoria(
+    -> id_categoria INT PRIMARY KEY AUTO_INCREMENT,
+    -> nombre VARCHAR (255) NOT NULL,
+    -> detalle VARCHAR (255) NOT NULL
+    -> );
+
+
+CREATE TABLE cerveza(
+    -> id_cerveza INT PRIMARY KEY AUTO_INCREMENT,
+    -> nombre VARCHAR (255) NOT NULL,
+    -> detalle VARCHAR (255) NOT NULL,
+    -> id_categoria INT NOT NULL,
+    -> FOREIGN KEY (id_categoria) REFERENCES categoria(id_categoria)
+    -> );
+
+
+CREATE TABLE tipo_categoria(
+    -> id INT PRIMARY KEY AUTO_INCREMENT,
+    -> id_tipo INT NOT NULL,
+    -> id_categoria INT NOT NULL,
+    -> FOREIGN KEY (id_categoria) REFERENCES categoria(id_categoria),
+    -> FOREIGN KEY (id_tipo) REFERENCES tipo(id_tipo)
+    -> );
+
+
+CREATE TABLE cerveza_matprima(
+    -> id INT PRIMARY KEY AUTO_INCREMENT,
+    -> id_cerveza INT NOT NULL,
+    -> id_materiap INT NOT NULL,
+    -> cantidad INT NOT NULL,
+    -> unidad VARCHAR (25),
+    -> FOREIGN KEY (id_cerveza) REFERENCES cerveza(id_cerveza),
+    -> FOREIGN KEY (id_materiap) REFERENCES materia_prima(id_materiap)
+    -> );
+
+
+
+INSERT INTO materia_prima (nombre, detalle) VALUES ('cebada', 'materia indispensable');
+INSERT INTO materia_prima (nombre, detalle) VALUES ('agua', 'agua destilada');
+INSERT INTO materia_prima (nombre, detalle) VALUES ('azúcar', 'azucar morena');
+INSERT INTO tipo (nombre) VALUES ('Dark');
+INSERT INTO tipo (nombre) VALUES ('Pale');
+INSERT INTO tipo (nombre) VALUES ('Backs');
+INSERT INTO tipo (nombre) VALUES ('Stouts');
+INSERT INTO tipo (nombre) VALUES ('Porters');
+INSERT INTO tipo (nombre) VALUES ('Belgians');
+INSERT INTO tipo (nombre) VALUES ('Sours');
+INSERT INTO categoria (nombre, detalle) VALUES ('Lagers', 'categoria máxima');
+INSERT INTO categoria (nombre, detalle) VALUES ('Ales', 'categoria primaria');
+INSERT INTO cerveza (nombre, detalle, id_categoria) VALUES ('Roja', 'Clásica', 1);
+INSERT INTO cerveza (nombre, detalle, id_categoria) VALUES ('Negra', 'Importada', 2);
+INSERT INTO tipo_categoria (id_tipo, id_categoria) VALUES (1, 1);
+INSERT INTO tipo_categoria (id_tipo, id_categoria) VALUES (1, 2);
+INSERT INTO tipo_categoria (id_tipo, id_categoria) VALUES (2, 2);
+INSERT INTO cerveza_matprima (id_cerveza, id_materiap, cantidad, unidad) VALUES (1, 1, 100, 'gramos');
+INSERT INTO cerveza_matprima (id_cerveza, id_materiap, cantidad, unidad) VALUES (1, 2, 1100, 'gramos');
+INSERT INTO cerveza_matprima (id_cerveza, id_materiap, cantidad, unidad) VALUES (2, 1, 1000, 'gramos');
+INSERT INTO cerveza_matprima (id_cerveza, id_materiap, cantidad, unidad) VALUES (2, 2, 2200, 'gramos');
