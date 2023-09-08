@@ -1,0 +1,84 @@
+[{
+  "_id": {
+    "$oid": "64fa6fe7f0922b0d28d51d96"
+  },
+  "fecha": "07/09/2023",
+  "hora": "12:00:00",
+  "cantidadproducida": 2000000,
+  "cerveza": {
+    "nombrecerveza": "Roja",
+    "nombrecategoria": "Lagers",
+    "preciocategoria": 13.4,
+    "nombretipo": "Dark"
+  },
+  "materiaprima": [
+    {
+      "nombre": "agua",
+      "cantidad": 1
+    },
+    {
+      "nombre": "azucar",
+      "cantidad": 2
+    },
+    {
+      "nombre": "cebada",
+      "cantidad": 3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64fa7699f0922b0d28d51db1"
+  },
+  "fecha": "06/09/2023",
+  "hora": "11:00:00",
+  "cantidadproducida": 1000000,
+  "cerveza": {
+    "nombrecerveza": "Negra",
+    "nombrecategoria": "Ales",
+    "preciocategoria": 12.5,
+    "nombretipo": "Pale"
+  },
+  "materiaprima": [
+    {
+      "nombre": "agua",
+      "cantidad": 2
+    },
+    {
+      "nombre": "azucar",
+      "cantidad": 4
+    },
+    {
+      "nombre": "cebada",
+      "cantidad": 6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "64fa78b2f0922b0d28d51dc5"
+  },
+  "fecha": "07/09/2023",
+  "hora": "10:00:00",
+  "cantidadproducida": 4000000,
+  "cerveza": {
+    "nombrecerveza": "Dorada",
+    "nombrecategoria": "Novedosa",
+    "preciocategoria": 14,
+    "nombretipo": "NewTipo"
+  },
+  "materiaprima": [
+    {
+      "nombre": "agua",
+      "cantidad": 1
+    },
+    {
+      "nombre": "azucar",
+      "cantidad": 1
+    },
+    {
+      "nombre": "cebada",
+      "cantidad": 3
+    }
+  ]
+}]

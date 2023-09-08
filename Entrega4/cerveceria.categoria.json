@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "64fa57f3f0922b0d28d51d71"
+  },
+  "nombrecategoria": "Lagers",
+  "preciocategoria": 13.4,
+  "nombretipo": "Dark"
+},
+{
+  "_id": {
+    "$oid": "64fa57f3f0922b0d28d51d72"
+  },
+  "nombrecategoria": "Lagers",
+  "preciocategoria": 13.4,
+  "nombretipo": "Pale"
+},
+{
+  "_id": {
+    "$oid": "64fa57f3f0922b0d28d51d73"
+  },
+  "nombrecategoria": "Lagers",
+  "preciocategoria": 13.4,
+  "nombretipo": "Backs"
+},
+{
+  "_id": {
+    "$oid": "64fa57f3f0922b0d28d51d74"
+  },
+  "nombrecategoria": "Lagers",
+  "preciocategoria": 13.4,
+  "nombretipo": "Dark"
+},
+{
+  "_id": {
+    "$oid": "64fa57f3f0922b0d28d51d75"
+  },
+  "nombrecategoria": "Ales",
+  "preciocategoria": 12.5,
+  "nombretipo": "Pale"
+},
+{
+  "_id": {
+    "$oid": "64fa57f3f0922b0d28d51d76"
+  },
+  "nombrecategoria": "Novedosa",
+  "preciocategoria": 14,
+  "nombretipo": "Dark"
+},
+{
+  "_id": {
+    "$oid": "64fa57f3f0922b0d28d51d77"
+  },
+  "nombrecategoria": "Novedosa",
+  "preciocategoria": 14,
+  "nombretipo": "NewTipo"
+}]

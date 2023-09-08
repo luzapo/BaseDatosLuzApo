@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "64fa7522f0922b0d28d51da8"
+  },
+  "cerveza": {
+    "nombre": "Roja",
+    "categoria": "Lagers",
+    "preciocategoria": 13.4,
+    "tipo": "Dark",
+    "cantidadInventario": 1999900
+  }
+},
+{
+  "_id": {
+    "$oid": "64fa7712f0922b0d28d51db8"
+  },
+  "cerveza": {
+    "nombre": "Negra",
+    "categoria": "Ales",
+    "preciocategoria": 12.5,
+    "tipo": "Pale",
+    "cantidadInventario": 1000000
+  }
+},
+{
+  "_id": {
+    "$oid": "64fa795ff0922b0d28d51dcb"
+  },
+  "cerveza": {
+    "nombre": "Dorada",
+    "categoria": "Novedosa",
+    "preciocategoria": 14,
+    "tipo": "NewTipo",
+    "cantidadInventario": 4000000
+  }
+}]

@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "64fa7266f0922b0d28d51d9d"
+  },
+  "fecha": "07/09/2023",
+  "hora": "10:00:00",
+  "cerveza": [
+    {
+      "nombrecerveza": "Roja",
+      "nombrecategoria": "Lagers",
+      "preciocategoria": 13.4,
+      "nombretipo": "Dark",
+      "cantidadvendida": 100,
+      "ventatotal": 13400
+    },
+    {
+      "nombrecerveza": "Negra",
+      "nombrecategoria": "Ales",
+      "preciocategoria": 12.5,
+      "nombretipo": "Pale",
+      "cantidadvendida": 100,
+      "ventatotal": 12500
+    },
+    {
+      "nombrecerveza": "Dorada",
+      "nombrecategoria": "Novedosa",
+      "preciocategoria": 14,
+      "nombretipo": "NewTipo",
+      "cantidadvendida": 100,
+      "ventatotal": 1400
+    }
+  ]
+}]
