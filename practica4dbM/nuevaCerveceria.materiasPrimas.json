@@ -1,0 +1,70 @@
+[{
+  "0": {
+    "_id": "1",
+    "nombre": "agua",
+    "cantidad": "90000"
+  },
+  "1": {
+    "_id": "2",
+    "nombre": "malta",
+    "cantidad": "12000"
+  },
+  "2": {
+    "_id": "3",
+    "nombre": "lupulo",
+    "cantidad": "24000"
+  },
+  "3": {
+    "_id": "13",
+    "nombre": "tamarindo",
+    "cantidad": "1000"
+  },
+  "4": {
+    "_id": "4",
+    "nombre": "levadura",
+    "cantidad": "6000"
+  },
+  "5": {
+    "_id": "5",
+    "nombre": "miel",
+    "cantidad": "300"
+  },
+  "6": {
+    "_id": "6",
+    "nombre": "azucar",
+    "cantidad": "100"
+  },
+  "7": {
+    "_id": "7",
+    "nombre": "melaza",
+    "cantidad": "250"
+  },
+  "8": {
+    "_id": "8",
+    "nombre": "cereales",
+    "cantidad": "2000"
+  },
+  "9": {
+    "_id": "9",
+    "nombre": "piña",
+    "cantidad": "300"
+  },
+  "10": {
+    "_id": "10",
+    "nombre": "mandarina",
+    "cantidad": "720"
+  },
+  "11": {
+    "_id": "11",
+    "nombre": "macadamia",
+    "cantidad": "90"
+  },
+  "12": {
+    "_id": "12",
+    "nombre": "corozo",
+    "cantidad": "1000"
+  },
+  "_id": {
+    "$oid": "64fbd6d2f3c154a35258af2a"
+  }
+}]

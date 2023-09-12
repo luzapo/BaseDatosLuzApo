@@ -1,0 +1,68 @@
+[{
+  "0": {
+    "_id": "100",
+    "nombre": "dark",
+    "precio": "13.4",
+    "cantidadVendidas": "50",
+    "total": "670"
+  },
+  "1": {
+    "_id": "200",
+    "nombre": "pale",
+    "precio": "13.4",
+    "cantidadvendidas": "12",
+    "total": "160.8"
+  },
+  "2": {
+    "_id": "300",
+    "nombre": "bocks",
+    "precio": "13.4",
+    "cantidadvendidas": "0",
+    "total": "0"
+  },
+  "3": {
+    "_id": "400",
+    "nombre": "stouts",
+    "precio": "12.5",
+    "cantidadvendidas": "15",
+    "total": "187.5"
+  },
+  "4": {
+    "_id": "500",
+    "nombre": "porters",
+    "precio": "12.5",
+    "cantidadvendidas": "50",
+    "total": "625"
+  },
+  "5": {
+    "_id": "600",
+    "nombre": "belgians",
+    "precio": "12.5",
+    "cantidadvendidas": "100",
+    "total": "1250"
+  },
+  "6": {
+    "_id": "700",
+    "nombre": "sours",
+    "precio": "12.5",
+    "cantidadvendidas": "28",
+    "total": "350"
+  },
+  "7": {
+    "_id": "800",
+    "nombre": "atlantics",
+    "precio": "10.7",
+    "cantidadvendidas": "2",
+    "total": "21.4"
+  },
+  "8": {
+    "_id": "900",
+    "nombre": "juniors",
+    "precio": "10.7",
+    "cantidadvendidas": "50",
+    "total": "535"
+  },
+  "_id": {
+    "$oid": "6500bb2e2e697aef4e1ac39a"
+  }
+}]

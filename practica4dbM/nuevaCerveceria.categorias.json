@@ -1,0 +1,255 @@
+[{
+  "_id": "10",
+  "nombre": "lagers",
+  "cantidad": "138",
+  "tipo": [
+    {
+      "nombre": "dark",
+      "cantidad": "50",
+      "detalle": [
+        {
+          "nombre": "agua",
+          "cantidad": "150"
+        },
+        {
+          "nombre": "malta",
+          "cantidad": "20"
+        },
+        {
+          "nombre": "lupulo",
+          "cantidad": "40"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": "10"
+        },
+        {
+          "nombre": "miel",
+          "cantidad": "3"
+        }
+      ]
+    },
+    {
+      "nombre": "pale",
+      "cantidad": "38",
+      "detalle": [
+        {
+          "nombre": "agua",
+          "cantidad": "150"
+        },
+        {
+          "nombre": "malta",
+          "cantidad": "20"
+        },
+        {
+          "nombre": "lupulo",
+          "cantidad": "40"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": "10"
+        },
+        {
+          "nombre": "azucar",
+          "cantidad": "2"
+        }
+      ]
+    },
+    {
+      "nombre": "bocks",
+      "cantidad": "50",
+      "detalle": [
+        {
+          "nombre": "agua",
+          "cantidad": "150"
+        },
+        {
+          "nombre": "malta",
+          "cantidad": "20"
+        },
+        {
+          "nombre": "lupulo",
+          "cantidad": "40"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": "10"
+        },
+        {
+          "nombre": "melaza",
+          "cantidad": "5"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": "20",
+  "nombre": "ales",
+  "cantidad": "107",
+  "tipo": [
+    {
+      "nombre": "stouts",
+      "cantidad": "85",
+      "detalle": [
+        {
+          "nombre": "agua",
+          "cantidad": "150"
+        },
+        {
+          "nombre": "malta",
+          "cantidad": "20"
+        },
+        {
+          "nombre": "lupulo",
+          "cantidad": "40"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": "10"
+        },
+        {
+          "nombre": "cereales",
+          "cantidad": "20"
+        }
+      ]
+    },
+    {
+      "nombre": "sours",
+      "cantidad": "2",
+      "detalle": [
+        {
+          "nombre": "agua",
+          "cantidad": "150"
+        },
+        {
+          "nombre": "malta",
+          "cantidad": "20"
+        },
+        {
+          "nombre": "lupulo",
+          "cantidad": "40"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": "10"
+        },
+        {
+          "nombre": "macadamia",
+          "cantidad": "3"
+        }
+      ]
+    },
+    {
+      "nombre": "porters",
+      "cantidad": "0",
+      "detalle": [
+        {
+          "nombre": "agua",
+          "cantidad": "150"
+        },
+        {
+          "nombre": "malta",
+          "cantidad": "20"
+        },
+        {
+          "nombre": "lupulo",
+          "cantidad": "40"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": "10"
+        },
+        {
+          "nombre": "piña",
+          "cantidad": "6"
+        }
+      ]
+    },
+    {
+      "nombre": "belgians",
+      "cantidad": "20",
+      "detalle": [
+        {
+          "nombre": "agua",
+          "cantidad": "150"
+        },
+        {
+          "nombre": "malta",
+          "cantidad": "20"
+        },
+        {
+          "nombre": "lupulo",
+          "cantidad": "40"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": "10"
+        },
+        {
+          "nombre": "mandarina",
+          "cantidad": "6"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": "30",
+  "nombre": "colombo",
+  "cantidad": "48",
+  "tipo": [
+    {
+      "nombre": "atlantics",
+      "cantidad": "48",
+      "detalle": [
+        {
+          "nombre": "agua",
+          "cantidad": "150"
+        },
+        {
+          "nombre": "malta",
+          "cantidad": "20"
+        },
+        {
+          "nombre": "lupulo",
+          "cantidad": "40"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": "10"
+        },
+        {
+          "nombre": "corozo",
+          "cantidad": "20"
+        }
+      ]
+    },
+    {
+      "nombre": "juniors",
+      "cantidad": "0",
+      "detalle": [
+        {
+          "nombre": "agua",
+          "cantidad": "150"
+        },
+        {
+          "nombre": "malta",
+          "cantidad": "20"
+        },
+        {
+          "nombre": "lupulo",
+          "cantidad": "40"
+        },
+        {
+          "nombre": "levadura",
+          "cantidad": "10"
+        },
+        {
+          "nombre": "tamarindo",
+          "cantidad": "20"
+        }
+      ]
+    }
+  ]
+}]

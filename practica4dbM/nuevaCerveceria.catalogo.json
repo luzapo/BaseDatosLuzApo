@@ -1,0 +1,50 @@
+[{
+  "0": {
+    "_id": "100",
+    "nombre": "dark",
+    "precio": "13.4"
+  },
+  "1": {
+    "_id": "200",
+    "nombre": "pale",
+    "precio": "13.4"
+  },
+  "2": {
+    "_id": "300",
+    "nombre": "bocks",
+    "precio": "13.4"
+  },
+  "3": {
+    "_id": "400",
+    "nombre": "stouts",
+    "precio": "12.5"
+  },
+  "4": {
+    "_id": "500",
+    "nombre": "porters",
+    "precio": "12.5"
+  },
+  "5": {
+    "_id": "600",
+    "nombre": "belgians",
+    "precio": "12.5"
+  },
+  "6": {
+    "_id": "700",
+    "nombre": "sours",
+    "precio": "12.5"
+  },
+  "7": {
+    "_id": "800",
+    "nombre": "atlantics",
+    "precio": "10.7"
+  },
+  "8": {
+    "_id": "900",
+    "nombre": "juniors",
+    "precio": "10.7"
+  },
+  "_id": {
+    "$oid": "6500b17a2e697aef4e1ac399"
+  }
+}]
